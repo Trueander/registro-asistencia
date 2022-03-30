@@ -1,0 +1,12 @@
+create database db_asistencias_spring;
+
+
+insert into aula(nombre) values('1ERO B');
+
+insert into estudiante(nombre, apellidos, codigo, aula_id) values('Anderson', 'Bengolea Sánchez','70267159',1);
+insert into estudiante(nombre, apellidos, codigo, aula_id) values('Hely', 'Arotinco Velasquez','70134894',1);
+insert into estudiante(nombre, apellidos, codigo, aula_id) values('Rosa', 'Rosales Rojas','12312312',1);
+insert into estudiante(nombre, apellidos, codigo, aula_id) values('Carol', 'Rondalo Reol', '77711111',1);
+insert into estudiante(nombre, apellidos, codigo, aula_id) values('Pedro', 'Kimare Sánchez', '22222222',1);
+insert into estudiante(nombre, apellidos, codigo, aula_id) values('Karol', 'Omas Rever', '22313222',1);
+insert into estudiante(nombre, apellidos, codigo, aula_id) values('Kiara', 'Rosales Sánchez', '55552222',1);

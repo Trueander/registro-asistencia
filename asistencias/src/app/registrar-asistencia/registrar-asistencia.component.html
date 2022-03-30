@@ -1,0 +1,14 @@
+<div class="container">
+    <mat-card class="card" >
+        <mat-card-title>Registro de asistencia</mat-card-title>
+        <mat-divider></mat-divider>
+        <mat-form-field appearance="legacy">
+            <mat-label>Ingrese el código del estudiante</mat-label>
+            <input [(ngModel)]="estudiante.codigo" matInput>
+          </mat-form-field>
+          <button mat-raised-button color="primary" style="width: 100%;" (click)="registrarAsistencia()">Registrar asistencia</button>
+      </mat-card>
+</div>
+
+
+
